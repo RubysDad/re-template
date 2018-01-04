@@ -39,6 +39,7 @@ gem 'bootstrap', '~> 4.0.0.beta3'
 gem 'rails-assets-tether', '>= 1.3.3', source: 'https://rails-assets.org'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 gem 'simple-line-icons-rails', '~> 0.1.3'
+gem 'popper_js', '~> 1.12.9'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
