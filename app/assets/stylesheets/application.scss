@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import "simple-line-icons";
+@import "font-awesome";
 @import "variables";
 @import "re_template";
 
@@ -32,7 +34,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
+  background: url('bg-re-template.png') no-repeat center center;
   @include background-cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -108,7 +110,7 @@ header.masthead {
 .call-to-action {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
+  background: url('england-re-template.png') no-repeat center center;
   @include background-cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
