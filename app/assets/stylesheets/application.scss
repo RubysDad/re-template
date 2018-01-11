@@ -34,7 +34,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: $gray-800;
-  background: url('bg-re-template.png') no-repeat center center;
+  background: image-url('bg-re-template.png') no-repeat center center;
   @include background-cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -110,7 +110,7 @@ header.masthead {
 .call-to-action {
   position: relative;
   background-color: $gray-800;
-  background: url('dark-home-re-template.jpeg') no-repeat center center;
+  background: image-url('dark-home-re-template.jpeg') no-repeat center center;
   @include background-cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
